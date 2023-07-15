@@ -8,7 +8,7 @@
 <br>
 
 <p align="center">
-  <img alt="Galeria de Imagens" src="./image.png" width="100%">
+  <img alt="Galeria de Imagens" src="./images/image.png" width="100%">
 </p>
 
 ## Tecnologias
