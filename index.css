@@ -1,0 +1,84 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Roboto, sans-serif;
+}
+
+header {
+   padding: 16px 0;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(152, 110, 201);
+   color: #fff;
+   text-transform: uppercase;
+   font-style: italic;
+   border-bottom: 16px solid rgb(86, 57, 119);
+}
+
+header button {
+   margin-left: 16px;
+}
+
+form {
+   padding: 24px 0;
+   display: none;
+   background-color: rgb(207, 188, 224);
+   text-align: center;
+}
+
+input, button {
+   padding: 8px;
+}
+
+button {
+   background-color: rgb(109, 201, 149);
+   border: none;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: bold;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+
+#btn-cancel {
+   background-color: rgb(192, 58, 58);
+}
+
+ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+ul li {
+   max-width: 25%;
+   max-height: 310px;
+   position: relative;
+   overflow-y: hidden;
+   list-style: none;
+}
+
+ul li img {
+   width: 100%;
+}
+
+.overlay-imagem-link {
+   width: 100%;
+   padding: 16px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   background-color: rgba(35, 25, 48, 0.6);
+   opacity: 0;
+   transition: all ease 0.5s;
+   cursor: pointer;
+}
+
+ul li:hover .overlay-imagem-link {
+   opacity: 1;
+}
+
+.overlay-imagem-link a {
+   color: #fff;
+   text-decoration: none;
+}
